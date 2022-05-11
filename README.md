@@ -33,6 +33,6 @@ Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "tzinfo-data"
 
-Hotwire destroy not working out of the box:
+* Hotwire destroy not working out of the box:
 Rails 7: link_to method: :delete not working #44185
 $ rails importmap:install $ rails turbo:install stimulus:install
