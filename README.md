@@ -28,9 +28,9 @@ Ruby 3.1.2p20
 Rails v 7.0.3
 
 
-Features to be aware of and patched on Windows install:
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-# gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
+* Features to be aware of and patched on Windows install:
+Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "tzinfo-data"
 
 Hotwire destroy not working out of the box:
