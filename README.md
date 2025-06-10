@@ -24,7 +24,7 @@ Things you may want to cover:
 * ...
 
 
-Ruby 3.1.2p20
+Ruby 3.1.2.20
 Rails v 7.0.3
 
 
